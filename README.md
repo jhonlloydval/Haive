@@ -113,7 +113,7 @@ Whether you need to prepare for a job interview, check a news claim, track your 
 ## What is a Hive?
 
 <div align="center">
-  <img src="assets/HAIVE-3.png" alt="Haive — Hive Example" width="900"/>
+  <img src="assets/HAIVE-4.png" alt="Haive — Hive Example" width="900"/>
   <br/>
   <sub><i>A Hive in action — structured input, focused output</i></sub>
 </div>
