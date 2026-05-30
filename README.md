@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/HAIVE-logo.png" alt="ToolHaive AI Logo" width="96"/>
+<img src="assets/HAIVE-logo.svg" alt="ToolHaive AI Logo" width="96"/>
 
 # ToolHaive AI
 
@@ -45,7 +45,7 @@
 ## Overview
 
 <div align="center">
-  <img src="assets/HAIVE-1.svg" alt="ToolHaive AI — Landing Page" width="900"/>
+  <img src="assets/HAIVE-1.png" alt="ToolHaive AI — Landing Page" width="900"/>
   <br/>
   <sub><i>Landing page — hero section</i></sub>
 </div>
