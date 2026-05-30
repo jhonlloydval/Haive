@@ -1,49 +1,49 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     
-  <linearGradient id="i32_dl_g_A" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
-    <stop offset="0%" stop-color="#7ed0ff"/>
-    <stop offset="45%" stop-color="#3a90d8"/>
-    <stop offset="100%" stop-color="#E5E5BE"/>
-  </linearGradient>
-  <linearGradient id="i32_dl_g_B" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
-    <stop offset="0%" stop-color="#1e62aa"/>
-    <stop offset="55%" stop-color="#0e3d78"/>
-    <stop offset="100%" stop-color="#c0c098"/>
-  </linearGradient>
-  <linearGradient id="i32_dl_g_C" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+  <linearGradient id="logol_dl_g_A" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#003973"/>
-    <stop offset="100%" stop-color="#6a6a52"/>
+    <stop offset="45%" stop-color="#1a5090"/>
+    <stop offset="100%" stop-color="#8aaccc"/>
   </linearGradient>
-  <radialGradient id="i32_dl_g_G1" cx="36%" cy="28%" r="58%">
-    <stop offset="0%" stop-color="white" stop-opacity=".28"/>
+  <linearGradient id="logol_dl_g_B" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#0d2d58"/>
+    <stop offset="55%" stop-color="#0a2040"/>
+    <stop offset="100%" stop-color="#6a8aaa"/>
+  </linearGradient>
+  <linearGradient id="logol_dl_g_C" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#071e3c"/>
+    <stop offset="100%" stop-color="#4a6a88"/>
+  </linearGradient>
+  <radialGradient id="logol_dl_g_G1" cx="36%" cy="28%" r="58%">
+    <stop offset="0%" stop-color="white" stop-opacity=".32"/>
     <stop offset="100%" stop-color="white" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="i32_dl_g_G2" cx="36%" cy="28%" r="55%">
-    <stop offset="0%" stop-color="white" stop-opacity=".14"/>
+  <radialGradient id="logol_dl_g_G2" cx="36%" cy="28%" r="55%">
+    <stop offset="0%" stop-color="white" stop-opacity=".18"/>
     <stop offset="100%" stop-color="white" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="i32_dl_g_G3" cx="36%" cy="28%" r="52%">
-    <stop offset="0%" stop-color="white" stop-opacity=".1"/>
+  <radialGradient id="logol_dl_g_G3" cx="36%" cy="28%" r="52%">
+    <stop offset="0%" stop-color="white" stop-opacity=".12"/>
     <stop offset="100%" stop-color="white" stop-opacity="0"/>
   </radialGradient>
-    <clipPath id="i32_dl_clip">
-      <rect width="32" height="32" rx="7" ry="7"/>
+    <clipPath id="logol_dl_clip">
+      <rect width="128" height="128" rx="29" ry="29"/>
     </clipPath>
   </defs>
   <!-- shell background -->
-  <rect width="32" height="32" rx="7" fill="#060e1a"/>
+  <rect width="128" height="128" rx="29" fill="#ffffff"/>
   <!-- gem centered with padding -->
-  <g clip-path="url(#i32_dl_clip)" transform="translate(3.84,2.88) scale(0.156)">
+  <g clip-path="url(#logol_dl_clip)" transform="translate(15.36,11.52) scale(0.624)">
     
-  <polygon points="80,10 114,30 114,70 80,90 46,70 46,30" fill="url(#i32_dl_g_A)"/>
-  <polygon points="115,74 149,94 149,134 115,154 81,134 81,94" fill="url(#i32_dl_g_B)"/>
-  <polygon points="45,74 79,94 79,134 45,154 11,134 11,94" fill="url(#i32_dl_g_C)"/>
-  <polygon points="80,10 114,30 114,70 80,90 46,70 46,30" fill="url(#i32_dl_g_G1)"/>
-  <polygon points="115,74 149,94 149,134 115,154 81,134 81,94" fill="url(#i32_dl_g_G2)"/>
-  <polygon points="45,74 79,94 79,134 45,154 11,134 11,94" fill="url(#i32_dl_g_G3)"/>
-  <line x1="80" y1="90" x2="80" y2="94" stroke="#060e1a" stroke-width="5"/>
-  <line x1="80" y1="90" x2="115" y2="74" stroke="#060e1a" stroke-width="5"/>
-  <line x1="80" y1="90" x2="45" y2="74" stroke="#060e1a" stroke-width="5"/>
+  <polygon points="80,10 114,30 114,70 80,90 46,70 46,30" fill="url(#logol_dl_g_A)"/>
+  <polygon points="115,74 149,94 149,134 115,154 81,134 81,94" fill="url(#logol_dl_g_B)"/>
+  <polygon points="45,74 79,94 79,134 45,154 11,134 11,94" fill="url(#logol_dl_g_C)"/>
+  <polygon points="80,10 114,30 114,70 80,90 46,70 46,30" fill="url(#logol_dl_g_G1)"/>
+  <polygon points="115,74 149,94 149,134 115,154 81,134 81,94" fill="url(#logol_dl_g_G2)"/>
+  <polygon points="45,74 79,94 79,134 45,154 11,134 11,94" fill="url(#logol_dl_g_G3)"/>
+  <line x1="80" y1="90" x2="80" y2="94" stroke="#f0f2f5" stroke-width="5"/>
+  <line x1="80" y1="90" x2="115" y2="74" stroke="#f0f2f5" stroke-width="5"/>
+  <line x1="80" y1="90" x2="45" y2="74" stroke="#f0f2f5" stroke-width="5"/>
   </g>
 </svg>
