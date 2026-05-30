@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/HAIVE-logo.svg" alt="ToolHaive AI Logo" width="96"/>
+<img src="assets/HAIVE-logo.svg" alt="Haive Logo" width="96"/>
 
 # Haive
 
@@ -21,38 +21,42 @@
 
 ## Table of Contents
 
+<details>
+<summary>Click to expand</summary>
+
 1. [Overview](#overview)
 2. [Background & Motivation](#background--motivation)
-3. [What is a Hive?](#what-is-a-hive)
-4. [Screenshots](#screenshots)
-5. [Built-in Hives](#built-in-hives)
-6. [Architecture](#architecture)
-7. [Prompt Engineering Strategy](#prompt-engineering-strategy)
-8. [RAG Engine](#rag-engine)
-9. [Tech Stack](#tech-stack)
-10. [Project Structure](#project-structure)
-11. [Prerequisites](#prerequisites)
-12. [Installation](#installation)
-13. [Running the App](#running-the-app)
-14. [Custom Tool Builder](#custom-tool-builder)
-15. [Data Models](#data-models)
-16. [Roadmap](#roadmap)
-17. [Scope & Limitations](#scope--limitations)
-18. [License](#license)
+3. [Meet Haive](#meet-haive)
+4. [What is a Hive?](#what-is-a-hive)
+   - [Built-in Hives](#built-in-hives)
+5. [Prompt Engineering Strategy](#prompt-engineering-strategy)
+6. [RAG Engine](#rag-engine)
+7. [Tech Stack](#tech-stack)
+8. [Project Structure](#project-structure)
+9. [Prerequisites](#prerequisites)
+10. [Installation](#installation)
+11. [Running the App](#running-the-app)
+12. [Custom Tool Builder](#custom-tool-builder)
+13. [Data Models](#data-models)
+14. [Roadmap](#roadmap)
+15. [Scope & Limitations](#scope--limitations)
+16. [License](#license)
+
+</details>
 
 ---
 
 ## Overview
 
 <div align="center">
-  <img src="assets/HAIVE-1.png" alt="ToolHaive AI — Landing Page" width="900"/>
+  <img src="assets/HAIVE-1.png" alt="Haive — Landing Page" width="900"/>
   <br/>
   <sub><i>Landing page — hero section</i></sub>
 </div>
 
 <br/>
 
-**ToolHaive AI** is a modular Generative AI tools platform built with Python and Streamlit, powered by locally hosted large language models via [Ollama](https://ollama.com). Rather than a single general-purpose chatbot, the platform organizes AI capabilities into focused, task-specific assistants called **Hives** — each purpose-built for a specific user role or workflow.
+**Haive** is a modular Generative AI tools platform built with Python and Streamlit, powered by locally hosted large language models via [Ollama](https://ollama.com). Rather than a single general-purpose chatbot, the platform organizes AI capabilities into focused, task-specific assistants called **Hives** — each purpose-built for a specific user role or workflow.
 
 The platform ships with **12 specialized Hives** plus **HAIVE**, a general-purpose open chat assistant. Users can discover, launch, and interact with any Hive, or create entirely new tools using the no-code **Custom Tool Builder** — all without writing a single line of code.
 
@@ -65,7 +69,7 @@ All AI inference runs locally via Ollama. No cloud API is required during runtim
 ## Background & Motivation
 
 <div align="center">
-  <img src="assets/HAIVE-2.png" alt="ToolHaive AI — Tools Library Dashboard" width="900"/>
+  <img src="assets/HAIVE-2.png" alt="Haive — Tools Library Dashboard" width="900"/>
   <br/>
   <sub><i>Tools Library dashboard — searchable, filterable Hive cards</i></sub>
 </div>
@@ -80,11 +84,41 @@ The rapid adoption of generative AI in the Philippines and globally has created 
 
 The core problem: **the AI exists, but the ability to use it well doesn't.** General-purpose chatbots produce unfocused, inconsistent outputs when approached with specific professional tasks — because users are expected to craft detailed prompts themselves, a skill most have not yet developed.
 
-ToolHaive AI addresses this by packaging diverse AI workflows into guided, task-specific Hives. Each Hive handles the prompt complexity internally, so the user interacts with a structured interface, not a raw prompt box. This is aligned with the goals of the DTI's [National AI Strategy Roadmap (NAISR) 2.0](https://dict.gov.ph/) (2024) and the broader push toward practical, accessible AI adoption in the Philippines.
+Haive addresses this by packaging diverse AI workflows into guided, task-specific Hives. Each Hive handles the prompt complexity internally, so the user interacts with a structured interface, not a raw prompt box. This is aligned with the goals of the DTI's [National AI Strategy Roadmap (NAISR) 2.0](https://dict.gov.ph/) (2024) and the broader push toward practical, accessible AI adoption in the Philippines.
+
+---
+
+## Meet Haive
+
+<div align="center">
+  <img src="assets/HAIVE-3.png" alt="Haive — Platform Showcase" width="900"/>
+  <br/>
+  <sub><i>Haive — one platform, every task</i></sub>
+</div>
+
+<br/>
+
+**Haive** transforms the way users interact with AI — not through a single blank chat box, but through a curated library of specialized assistants, each designed to do one thing exceptionally well.
+
+The platform is built around three core experiences:
+
+- **HAIVE** — the general-purpose open chat for open-ended thinking, drafting, studying, and brainstorming
+- **Tools Library** — a searchable, filterable dashboard of 12 specialized Hives across professional, academic, wellness, and media categories
+- **Custom Tool Builder** — a no-code interface for creating and publishing new Hives tailored to any workflow
+
+Whether you need to prepare for a job interview, check a news claim, track your academic grades, or generate a structured essay — there is a Hive for that. And if there isn't, you can build one in minutes.
 
 ---
 
 ## What is a Hive?
+
+<div align="center">
+  <img src="assets/HAIVE-3.png" alt="Haive — Hive Example" width="900"/>
+  <br/>
+  <sub><i>A Hive in action — structured input, focused output</i></sub>
+</div>
+
+<br/>
 
 A **Hive** is a specialized AI assistant scoped to a single task or domain. Every Hive has:
 
@@ -100,29 +134,7 @@ Hives are either **single-turn** (one input → one structured output) or **mult
 
 ---
 
-## Screenshots
-
-<div align="center">
-
-| HAIVE — General Chat | Interview Coach Hive |
-|---|---|
-| <img src="assets/HAIVE-3.svg" width="440" alt="HAIVE General Chat"/> | <img src="assets/HAIVE-4.svg" width="440" alt="Interview Coach"/> |
-
-| GradeWise — Analytics Dashboard | Fact Checker with RAG |
-|---|---|
-| <img src="assets/HAIVE-5.svg" width="440" alt="GradeWise"/> | <img src="assets/HAIVE-6.svg" width="440" alt="Fact Checker RAG"/> |
-
-| Forecasting Hive | Custom Tool Builder |
-|---|---|
-| <img src="assets/HAIVE-7.svg" width="440" alt="Forecasting Hive"/> | <img src="assets/HAIVE-8.svg" width="440" alt="Custom Tool Builder"/> |
-
-</div>
-
-> **Note:** All screenshots above are placeholders. Replace with actual application screenshots at `assets/HAIVE-1.svg` through `assets/HAIVE-8.svg`.
-
----
-
-## Built-in Hives
+### Built-in Hives
 
 <div align="center">
 
@@ -144,7 +156,7 @@ Hives are either **single-turn** (one input → one structured output) or **mult
 
 </div>
 
-### Hive Descriptions
+#### Hive Descriptions
 
 **HAIVE** — Open-ended general chat assistant with model selection. No scope constraints. Supports drafting, studying, brainstorming, planning, and general problem-solving. Available models: `phi4-mini` (default), `llama3.2`.
 
@@ -174,91 +186,9 @@ Hives are either **single-turn** (one input → one structured output) or **mult
 
 ---
 
-## Architecture
-
-<div align="center">
-  <img src="assets/HAIVE-arch-diagram.svg" alt="ToolHaive AI — Architecture Diagram" width="900"/>
-  <br/>
-  <sub><i>Three-layer architecture: Landing → Tools Library → Individual Hives</i></sub>
-</div>
-
-<br/>
-
-ToolHaive AI uses a modular three-layer architecture:
-
-```
-Layer 1 — Landing Page          app.py
-                                    Branded entry point. Introduces the platform,
-                                    previews available Hives, routes to Tools Library.
-
-Layer 2 — Tools Library         pages/0_Tools_Library.py
-                                    Central navigation hub. Loads built-in tools from
-                                    utils/tools_data.py and custom tools from
-                                    data/custom_tools.json. Renders filterable Hive cards.
-
-Layer 3 — Individual Hives      pages/[1–13]_*.py  +  pages/haive.py
-                                    Each Hive is a dedicated Streamlit module with
-                                    isolated logic, UI, and output layout.
-                                    Prompt engineering is handled internally.
-```
-
-### Shared Infrastructure
-
-```
-utils/
-├── ollama_client.py    Shared Ollama API wrapper — all Hives call this
-├── tools_data.py       Single source of truth for all built-in Hive definitions
-├── utils_rag.py        RAG engine — ChromaDB + nomic-embed-text
-├── ui.py               CSS design system, navbar, tool header renderers
-└── __init__.py
-
-prompts/
-└── tool_scope.txt      Shared scope boundary template — constrains every Hive
-```
-
-### AI Inference Flow
-
-```
-User Input
-    │
-    ▼
-Individual Hive Page
-    │  builds structured messages[]
-    │  (system prompt = scoped_system_prompt() from ollama_client.py)
-    ▼
-utils/ollama_client.py → chat()
-    │  POST localhost:11434/api/chat
-    │  model: phi4-mini (default) or llama3.2
-    ▼
-Ollama (local LLM runtime)
-    │
-    ▼
-Formatted response rendered in Hive UI
-```
-
-For RAG-enabled Hives, the flow extends:
-
-```
-User uploads reference text
-    │
-    ▼
-utils_rag.py → ingest_text()
-    │  chunk → embed (nomic-embed-text) → store in ChromaDB
-    ▼
-User submits query
-    │
-    ▼
-utils_rag.py → retrieve()
-    │  embed query → similarity search → top-K chunks
-    ▼
-Chunks injected into system prompt → chat()
-```
-
----
-
 ## Prompt Engineering Strategy
 
-Since ToolHaive AI does not implement model fine-tuning, **prompt engineering is the primary AI customization mechanism**. Four strategies are applied across all Hives:
+Since Haive does not implement model fine-tuning, **prompt engineering is the primary AI customization mechanism**. Four strategies are applied across all Hives:
 
 ### 1. Role Assignment
 Each Hive's system prompt assigns the AI a professional identity. The Interview Coach acts as a domain-specific interviewer. The Wellness Companion is configured as a non-clinical emotional support companion. The Fact Checker is framed as a credibility analyst. Role assignment narrows the model's response space and aligns output style to the Hive's intended purpose.
@@ -272,7 +202,7 @@ All Hives are wrapped inside a shared scope template (`prompts/tool_scope.txt`).
 ```
 prompts/tool_scope.txt
 ─────────────────────────────────────────────────────────
-You are operating inside {tool_name}, a specialized ToolHaive AI tool.
+You are operating inside {tool_name}, a specialized Haive tool.
 
 Tool scope:
 {tool_scope}
@@ -295,7 +225,7 @@ Several Hives require specific tonal registers. The Wellness Companion responds 
 
 ## RAG Engine
 
-The Fact Checker Hive integrates ToolHaive's local Retrieval-Augmented Generation engine, implemented in `utils/utils_rag.py`.
+The Fact Checker Hive integrates Haive's local Retrieval-Augmented Generation engine, implemented in `utils/utils_rag.py`.
 
 **Components:**
 
@@ -375,7 +305,7 @@ The RAG engine is tool-agnostic: any Hive can call `ingest_text()` and `retrieve
 ## Project Structure
 
 ```
-ToolHaive/
+Haive/
 ├── app.py                          # Landing page — branded entry point
 │
 ├── pages/
@@ -437,8 +367,8 @@ ToolHaive/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/toolhaive-ai.git
-cd toolhaive-ai
+git clone https://github.com/your-username/Haive-ai.git
+cd Haive-ai
 ```
 
 ### 2. Create and activate a virtual environment
@@ -503,7 +433,7 @@ The app will be available at `http://localhost:8501`.
 
 ### Verify Ollama is reachable
 
-ToolHaive AI checks Ollama health via the `/api/tags` endpoint at startup. If Ollama is not running, tool pages will display a warning:
+Haive checks Ollama health via the `/api/tags` endpoint at startup. If Ollama is not running, tool pages will display a warning:
 
 ```
 ⚠️ Could not connect to Ollama. Make sure Ollama is running (`ollama serve`)
@@ -514,7 +444,7 @@ and phi4-mini is pulled (`ollama pull phi4-mini`).
 
 ## Custom Tool Builder
 
-ToolHaive AI includes a no-code interface for creating and publishing new Hives without modifying application code.
+Haive includes a no-code interface for creating and publishing new Hives without modifying application code.
 
 To create a custom Hive, open the **Tools Library** and click **Add New Toolkit**. Fill in the following fields:
 
@@ -605,7 +535,7 @@ Custom tools stored in `data/custom_tools.json` follow the same schema with addi
 
 ## Scope & Limitations
 
-ToolHaive AI is a **capstone prototype**. The following boundaries apply to the current version:
+Haive is a **capstone prototype**. The following boundaries apply to the current version:
 
 - **No production security** — no user authentication or multi-user account management is implemented.
 - **Local-only runtime** — all AI inference runs via Ollama on the host machine. The platform is not deployed to a cloud service in this version.
@@ -626,7 +556,7 @@ Distributed under the [MIT License](LICENSE).
 ```
 MIT License
 
-Copyright (c) 2025 ToolHaive AI
+Copyright (c) 2025 Haive
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -651,9 +581,9 @@ SOFTWARE.
 
 <div align="center">
 
-<img src="assets/HAIVE-logo.svg" alt="ToolHaive AI" width="48"/>
+<img src="assets/HAIVE-logo.svg" alt="Haive" width="48"/>
 
-**ToolHaive AI** — openIT Data Science Bootcamp · Capstone Project
+**Haive** — openIT Data Science Bootcamp · Capstone Project
 
 *One Platform. Every Task. Your AI Hive.*
 
