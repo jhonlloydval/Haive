@@ -2,7 +2,7 @@
 
 <img src="assets/HAIVE-logo.svg" alt="ToolHaive AI Logo" width="96"/>
 
-# ToolHaive AI
+# Haive
 
 **A Modular, Prompt-Engineered Generative AI Platform**
 
