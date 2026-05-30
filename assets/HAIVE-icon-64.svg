@@ -1,5 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="10" fill="#0A1628"/>
-  <polygon points="32,11.52 46.72,20.48 46.72,43.52 32,52.48 17.28,43.52 17.28,20.48" fill="none" stroke="#4A90D9" stroke-width="2"/>
-  <text x="32" y="39.68" font-family="'Courier New', monospace" font-size="16" fill="#4A90D9" text-anchor="middle" font-weight="700">H</text>
+<svg width="64" height="64" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="A64" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7ed0ff"/><stop offset="45%" stop-color="#3a90d8"/><stop offset="100%" stop-color="#E5E5BE"/>
+    </linearGradient>
+    <linearGradient id="B64" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e62aa"/><stop offset="55%" stop-color="#0e3d78"/><stop offset="100%" stop-color="#c0c098"/>
+    </linearGradient>
+    <linearGradient id="C64" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#003973"/><stop offset="100%" stop-color="#6a6a52"/>
+    </linearGradient>
+  </defs>
+  <polygon points="80,10 114,30 114,70 80,90 46,70 46,30" fill="url(#A64)"/>
+  <polygon points="115,74 149,94 149,134 115,154 81,134 81,94" fill="url(#B64)"/>
+  <polygon points="45,74 79,94 79,134 45,154 11,134 11,94" fill="url(#C64)"/>
+  <line x1="80" y1="90" x2="80" y2="94" stroke="#060e1a" stroke-width="5"/>
+  <line x1="80" y1="90" x2="115" y2="74" stroke="#060e1a" stroke-width="5"/>
+  <line x1="80" y1="90" x2="45" y2="74" stroke="#060e1a" stroke-width="5"/>
 </svg>

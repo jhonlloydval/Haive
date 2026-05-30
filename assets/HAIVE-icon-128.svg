@@ -1,5 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <rect width="128" height="128" rx="21" fill="#0A1628"/>
-  <polygon points="64,23.04 93.44,40.96 93.44,87.04 64,104.96 34.56,87.04 34.56,40.96" fill="none" stroke="#4A90D9" stroke-width="4"/>
-  <text x="64" y="79.36" font-family="'Courier New', monospace" font-size="32" fill="#4A90D9" text-anchor="middle" font-weight="700">H</text>
+<svg width="80" height="80" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="A128" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7ed0ff"/><stop offset="45%" stop-color="#3a90d8"/><stop offset="100%" stop-color="#E5E5BE"/>
+    </linearGradient>
+    <linearGradient id="B128" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e62aa"/><stop offset="55%" stop-color="#0e3d78"/><stop offset="100%" stop-color="#c0c098"/>
+    </linearGradient>
+    <linearGradient id="C128" x1="10" y1="10" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#003973"/><stop offset="100%" stop-color="#6a6a52"/>
+    </linearGradient>
+    <radialGradient id="G128" cx="36%" cy="28%" r="58%">
+      <stop offset="0%" stop-color="white" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <polygon points="80,10 114,30 114,70 80,90 46,70 46,30" fill="url(#A128)"/>
+  <polygon points="115,74 149,94 149,134 115,154 81,134 81,94" fill="url(#B128)"/>
+  <polygon points="45,74 79,94 79,134 45,154 11,134 11,94" fill="url(#C128)"/>
+  <polygon points="80,10 114,30 114,70 80,90 46,70 46,30" fill="url(#G128)"/>
+  <line x1="80" y1="90" x2="80" y2="94" stroke="#060e1a" stroke-width="5"/>
+  <line x1="80" y1="90" x2="115" y2="74" stroke="#060e1a" stroke-width="5"/>
+  <line x1="80" y1="90" x2="45" y2="74" stroke="#060e1a" stroke-width="5"/>
 </svg>
