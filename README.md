@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/HAIVE-logo.svg" alt="ToolHaive AI Logo" width="96"/>
+<img src="assets/HAIVE-logo.png" alt="ToolHaive AI Logo" width="96"/>
 
 # ToolHaive AI
 
@@ -65,7 +65,7 @@ All AI inference runs locally via Ollama. No cloud API is required during runtim
 ## Background & Motivation
 
 <div align="center">
-  <img src="assets/HAIVE-2.svg" alt="ToolHaive AI — Tools Library Dashboard" width="900"/>
+  <img src="assets/HAIVE-2.png" alt="ToolHaive AI — Tools Library Dashboard" width="900"/>
   <br/>
   <sub><i>Tools Library dashboard — searchable, filterable Hive cards</i></sub>
 </div>
