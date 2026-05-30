@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="85" fill="#EAF1FB"/>
+  <polygon points="256,92.16 373.76,163.84 373.76,348.16 256,419.84 138.24,348.16 138.24,163.84" fill="none" stroke="#003873" stroke-width="17"/>
+  <text x="256" y="317.44" font-family="'Courier New', monospace" font-size="128" fill="#003873" text-anchor="middle" font-weight="700">H</text>
+</svg>
