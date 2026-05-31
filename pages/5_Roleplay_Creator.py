@@ -1,6 +1,5 @@
 """
-pages/5_Roleplay_Creator.py — ToolHaive AI
-Assigned to: Lloyd
+pages/5_Roleplay_Creator.py — Haive
 """
 
 import streamlit as st
@@ -8,7 +7,7 @@ from utils.ui import inject_styles, render_navbar, render_tool_header, tool_body
 from utils.ollama_client import chat, scoped_system_prompt
 
 st.set_page_config(
-    page_title="Roleplay Creator Hive — ToolHaive AI",
+    page_title="Roleplay Creator Hive — Haive",
     page_icon="🎭", layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -80,3 +79,4 @@ else:
             st.session_state.rp_started  = False
             st.session_state.rp_messages  = []
             st.rerun()
+

@@ -1,4 +1,4 @@
-"""pages/about.py - ToolHaive AI about page."""
+"""pages/about.py - Haive about page."""
 
 import streamlit as st
 
@@ -8,7 +8,7 @@ from utils.ui import HEX_PATTERN_SM, inject_styles, render_html, render_navbar
 
 
 st.set_page_config(
-    page_title="About - ToolHaive AI",
+    page_title="About - Haive",
     page_icon="TH",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -197,7 +197,7 @@ render_html(
   <section class="about-hero">
     <div class="about-hero-inner">
       <div class="about-kicker">openIT Data Science Bootcamp Capstone</div>
-      <div class="about-title">ToolHaive AI</div>
+      <div class="about-title">Haive</div>
       <div class="about-sub">
         A local, privacy-first AI workspace that brings HAIVE general chat,
         specialized prompt tools, and a custom assistant builder into one
@@ -220,7 +220,7 @@ render_html(
           <div class="about-section-title">A focused tool library for everyday AI work.</div>
         </div>
         <div class="about-section-copy">
-          ToolHaive AI was built to show how scoped assistants can make local
+          Haive was built to show how scoped assistants can make local
           AI more useful than one generic chat box. Each Hive has a clear task,
           prompt boundary, interface, and output expectation so users can move
           quickly without rewriting instructions every time.
@@ -284,3 +284,4 @@ render_html(
 </div>
 """
 )
+

@@ -4,7 +4,6 @@ pages/2_Document_Summarizer.py - Haive
 Single-turn document summarizer. Integrated from the TBA summarizer contribution
 and adapted to the shared Haive UI/model flow.
 
-Assigned to: Iris
 """
 
 import streamlit as st

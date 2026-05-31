@@ -1,4 +1,4 @@
-"""pages/9_Custom_Tool_Runner.py - ToolHaive AI."""
+"""pages/9_Custom_Tool_Runner.py - Haive."""
 
 import json
 import os
@@ -9,7 +9,7 @@ from utils.ollama_client import chat
 from utils.ui import inject_styles, render_navbar, render_tool_header, tool_body_container
 
 st.set_page_config(
-    page_title="Custom Tool Hive — ToolHaive AI",
+    page_title="Custom Tool Hive — Haive",
     page_icon="➕",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -130,3 +130,4 @@ with tool_body_container():
                     st.markdown(result)
                 else:
                     st.warning("Please enter input for the selected custom tool.")
+

@@ -3,8 +3,6 @@ pages/3_Document_Paraphraser.py - Haive
 
 Integrated from the TBA paraphraser contribution and adapted to the shared
 Haive UI/model flow.
-
-Assigned to: Iris
 """
 
 import streamlit as st

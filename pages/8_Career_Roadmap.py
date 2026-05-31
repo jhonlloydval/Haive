@@ -1,11 +1,11 @@
-"""pages/8_Career_Roadmap.py - ToolHaive AI."""
+"""pages/8_Career_Roadmap.py - Haive."""
 
 import streamlit as st
 from utils.ollama_client import chat, scoped_system_prompt
 from utils.ui import inject_styles, render_navbar, render_tool_header, tool_body_container
 
 st.set_page_config(
-    page_title="Career Roadmap Hive — ToolHaive AI",
+    page_title="Career Roadmap Hive — Haive",
     page_icon="🧭",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -118,3 +118,4 @@ with tool_body_container():
             st.markdown(result)
         else:
             st.warning("Please enter your current background and target role.")
+

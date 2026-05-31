@@ -1,4 +1,4 @@
-"""pages/7_Fact_Checker.py - ToolHaive AI."""
+"""pages/7_Fact_Checker.py - Haive."""
 
 import streamlit as st
 from utils.ollama_client import chat, scoped_system_prompt
@@ -6,7 +6,7 @@ from utils.ui import inject_styles, render_navbar, render_tool_header, tool_body
 from utils.rag import retrieve, ingest_text, collection_exists
 
 st.set_page_config(
-    page_title="Fact Checker Hive — ToolHaive AI",
+    page_title="Fact Checker Hive — Haive",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -177,3 +177,4 @@ with tool_body_container():
         st.markdown(result)
     elif run:
         st.warning("Please paste a claim or excerpt first.")
+

@@ -1,11 +1,11 @@
-"""pages/6_Wellness_Companion.py - ToolHaive AI."""
+"""pages/6_Wellness_Companion.py - Haive."""
 
 import streamlit as st
 from utils.ollama_client import chat, scoped_system_prompt
 from utils.ui import inject_styles, render_navbar, render_tool_header, tool_body_container
 
 st.set_page_config(
-    page_title="Wellness Companion Hive — ToolHaive AI",
+    page_title="Wellness Companion Hive — Haive",
     page_icon="💙",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -114,3 +114,4 @@ with tool_body_container():
         if st.button("Start New Reflection"):
             st.session_state.wc_messages = [{"role": "system", "content": SYSTEM_PROMPT}]
             st.rerun()
+

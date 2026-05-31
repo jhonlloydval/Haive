@@ -1,11 +1,11 @@
-"""pages/10_General_AI.py - ToolHaive AI."""
+"""pages/10_General_AI.py - Haive."""
 
 import streamlit as st
 from utils.ollama_client import MODEL, MODEL_OPTIONS, chat
 from utils.ui import inject_styles, render_html, render_navbar, render_tool_header
 
 st.set_page_config(
-    page_title="HAIVE — ToolHaive AI",
+    page_title="HAIVE",
     page_icon="🔷",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -185,3 +185,4 @@ with st.container(key="haive-main"):
           </div>
         </div>
         """)
+

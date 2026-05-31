@@ -4,7 +4,6 @@ pages/1_Interview_Coach.py — Haive
 Multi-turn AI interview simulator. Asks one question at a time, evaluates
 the user's answer, and gives structured feedback before asking the next.
 
-Assigned to: Iris
 ──────────────────────────────────────────────────────────────────────────────
 """
 
