@@ -1,7 +1,7 @@
 """
 utils/ui.py
 ───────────────────────────────────────────────────────────────────────────────
-ToolHaive AI — Shared UI / Frontend Layer
+Haive — Shared UI / Frontend Layer
 ───────────────────────────────────────────────────────────────────────────────
 """
 
@@ -629,11 +629,11 @@ def render_navbar(active: str = "home"):
 
     render_html(f"""
     <nav class="th-nav">
-      <a class="th-nav-logo" href="/" target="_self" aria-label="ToolHaive AI Home">
+      <a class="th-nav-logo" href="/" target="_self" aria-label="Haive Home">
         <div class="th-nav-hex">
           <svg viewBox="0 0 24 24"><path d="M12 2L20 7V17L12 22L4 17V7L12 2Z"/></svg>
         </div>
-        <span class="th-nav-wordmark">ToolHaive AI</span>
+        <span class="th-nav-wordmark">Haive</span>
       </a>
       <div class="th-nav-links">
         <a class=\"th-nav-link {home_active}\" href=\"/\" target=\"_self\">Home</a>
@@ -746,3 +746,4 @@ def render_output_header(title: str):
       border-bottom: 2px solid rgba(0,57,115,0.15);
     ">{escape_html(title)}</div>
     """)
+

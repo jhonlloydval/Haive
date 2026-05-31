@@ -1,7 +1,7 @@
 """
 utils/rag.py
 ───────────────────────────────────────────────────────────────────────────────
-ToolHaive AI — RAG (Retrieval-Augmented Generation) Engine
+Haive — RAG (Retrieval-Augmented Generation) Engine
 Provides ingest, embed, and retrieve functions using ChromaDB (local vector
 store) and Ollama's nomic-embed-text embedding model.
 
@@ -185,3 +185,4 @@ def delete_collection(collection_name: str) -> None:
         _chroma_client().delete_collection(collection_name)
     except Exception:
         pass
+
